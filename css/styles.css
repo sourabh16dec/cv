@@ -1,0 +1,144 @@
+/* screen resizing elements placement*/
+
+
+body{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Amatic SC', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Roboto', sans-serif; */
+margin:0;
+background-color: #f6f6f6;
+
+}
+
+h1{
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 4.5rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2{
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+
+}
+
+.intro {
+  width: 25%;
+  margin: 50px auto;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a{
+color: #11999E;
+font-weight: bolder;
+text-decoration: none;
+padding: 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #f6f6f6;
+  position: relative;
+  padding-top: 200px;
+}
+
+.middle-container{
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0;
+}
+
+.cloud1{
+  position: absolute;
+  right: 15%;
+  top: 7%;
+  width: 10%;
+}
+
+.cloud2{
+  position: absolute;
+  Left: 25%;
+  top: 55%;
+  width: 10%;
+}
+
+.mountain{
+  width: 30%;
+  height: auto;
+}
+
+.pp{
+  border-radius: 100%;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: #81b214;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+  height: 228px;
+}
+
+.skill1{
+  width: 30%;
+  height: inherit;
+  float:left;
+  margin-right: 30px;
+}
+
+.skill2{
+  width: 30%;
+  height: inherit;
+  float:right;
+  margin-left: 30px;
+}
+
+.rightalign{
+  text-align: right;
+}
+
+.btn {
+  color: #FFFFFF !important;
+  font-size: 15px;
+  text-shadow: 0 0 0 #FFFFFF;
+  box-shadow: 0 0 2px #BEE2F9;
+  padding: 9px 21px;
+  border-radius: 40px;
+  border: 0 solid #3866A3;
+  background: #437CA1;
+  background: linear-gradient(to top, #437CA1, #56ADFF);
+}
+
+.btn:hover {
+  color: #FFF7F8 !important;
+  background: #1F3E5C;
+  background: linear-gradient(to top, #1F3E5C, #284B61);
+}
+
+a:hover{
+  color:#EAF6F6;
+}
